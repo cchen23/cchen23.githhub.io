@@ -42,12 +42,8 @@ ul.posts li {
     list-style: none;
 }
 
-.about { 
+.about ul { 
     margin: 20px auto 40px; 
     font-size: 4.5em;
     line-height: 1.4em;
-}
-
-.about li {
-    list-style: none;
 }
