@@ -50,6 +50,5 @@ ul {
 
 .description li {
     font-size: 1em;
-    margin: 15px auto 40px;
-    list-style-position: inside;
+    font-color: #999;
 }
