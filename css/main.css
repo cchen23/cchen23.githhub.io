@@ -30,7 +30,7 @@ h1 {
 }
 
 p.post {
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 1.4em;
   color: #333;
 }
@@ -47,11 +47,11 @@ footer {
 }
  
 ul { 
- font-size: 1em;
+ font-size: 1.1em;
  line-height: 1.4em;
 }
 
 ol { 
- font-size: 1em;
+ font-size: 1.1em;
  line-height: 1.4em;
 }
