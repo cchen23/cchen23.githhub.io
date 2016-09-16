@@ -29,7 +29,7 @@ h1 {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-p.post {
+p .post {
   font-size: 1.2em;
   line-height: 1.4em;
   color: #333;
@@ -47,6 +47,7 @@ footer {
 }
 
 li .post { 
+ font-size: 1.5 em;
  line-height: 1.4em;
 }
 
