@@ -1,7 +1,6 @@
 body {
     margin: 60px auto;
     width: 70%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -38,14 +37,12 @@ ul {
     margin: 20px auto 40px; 
     font-size: 1.5em;
     line-height: 1.4em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-ul ul.list { 
+.list ul ul { 
     list-style: none;
     margin: 20px auto 40px; 
     font-size: .6em;
     line-height: .8em;
     color: #999;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
