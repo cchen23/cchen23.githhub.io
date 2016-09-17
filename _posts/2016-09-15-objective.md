@@ -10,4 +10,7 @@ I have two main motivations for this project:
 
 
 * One of my ongoing goals is to more consisely and effectively communicate my ideas, with special emphasis to presentation format.
-* I believe that distilling lectures/lengthy readings into short summaries allows me understand information at a deeper level.
+* I believe that distilling lectures/lengthy readings into short summaries allows me understand information at a deeper level. (Kind of like the [Feynman Technique](https://www.farnamstreetblog.com/2012/04/learn-anything-faster-with-the-feynman-technique/))
+
+
+**Disclaimer**: As I'm writing these posts as I learn the material, the posts might contain unintentionally reductive or factually inaccurate statements.
