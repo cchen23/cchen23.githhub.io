@@ -13,4 +13,4 @@ I have two main motivations for this project:
 * I believe that distilling lectures/lengthy readings into short summaries allows me understand information at a deeper level. (Kind of like the [Feynman Technique](https://www.farnamstreetblog.com/2012/04/learn-anything-faster-with-the-feynman-technique/))
 
 
-**Disclaimer**: As I'm writing these posts as I learn the material, the posts might contain unintentionally reductive or factually inaccurate statements.
+***Disclaimer***: As I'm writing these posts as I learn the material, the posts might contain unintentionally reductive or factually inaccurate statements.
