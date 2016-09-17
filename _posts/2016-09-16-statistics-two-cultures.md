@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Science Two Cultures of Statistical Learning
+title: Science and Two Cultures of Statistical Learning
 date: 2016-09-16
 sources: ["On Chomsky and the Two Cultures of Statistical Learning", "The End of Theory: The Data Deluge Makes the Scientific Method Obsolute", "50 years of Data Science", "Data Science and its Relationship to Big Data and Data-Driven Decision Making"]
 type: thoughts
