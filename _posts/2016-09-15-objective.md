@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Objective"
+title: "Objective: Summaries"
 date: 2016-09-15
 type: intro
 ---
