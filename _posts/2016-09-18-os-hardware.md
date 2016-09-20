@@ -18,6 +18,6 @@ Computer memory holds information. Computers have different types of memory that
 
 People use many different types of I/O devices to communicate with computers, so intermediary objects help the computer communicate with all the different kinds of devices. *Controllers* provide an interfact to abstract away some of the complexity of the device, and *device drivers* are software that allows computers to understand the information coming from the controller, since controllers provide different interfaces.
 
-## Buses: Internal Communication
+## Buses: Path for Communication
 
-Computers use buses to communicate data between different components.
+Computers use buses (consisting of wires) to communicate data between different components.
