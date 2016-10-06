@@ -4,7 +4,8 @@ title: "AI/ML: Convex Relaxation"
 date: 2016-10-05
 type: summary
 ---
-* Continuation of Statistical Learning Theory [post](https://cchen23.github.io/blog/2016/10/04/statistical-learning-theory).
+(Continuation of Statistical Learning Theory [post](https://cchen23.github.io/blog/2016/10/04/statistical-learning-theory).)
+
 ## Motivation
 If we find a mapping that classifies sample data well, then we can prove that the mapping generalizes to all data reasonably well most of the time, if there is enough sample data.
 However, it's not always easy to find a mapping that classifies sample data well.
