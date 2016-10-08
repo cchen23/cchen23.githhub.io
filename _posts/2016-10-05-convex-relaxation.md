@@ -4,10 +4,9 @@ title: "AI/ML: Convex Relaxation"
 date: 2016-10-05
 type: summary
 ---
-(Continuation of Statistical Learning Theory [post](https://cchen23.github.io/blog/2016/10/04/statistical-learning-theory).)
 
 ## Motivation
-If we find a mapping that classifies sample data well, then we can prove that the mapping generalizes to all data reasonably well most of the time, if there is enough sample data.
+[Statistical learning theory](https://cchen23.github.io/blog/2016/10/04/statistical-learning-theory) tells us that if we find a mapping that classifies sample data well, then we can prove that the mapping generalizes to all data reasonably well most of the time, if there is enough sample data.
 However, it's not always easy to find a mapping that classifies sample data well.
 
 To find a hypothesis that accurately predicts labels for sample data, we try to minimize the inaccuracy of the classification. In doing so, we have a function (called a loss function) that tells us how inaccurate a hypothesis is, and we try to minimize this function. Part of the trouble comes from minimizing this function. Sometimes the functions are complicated, and it's not easy to tell whether a certain value is a minimum. It's possible that we find a value that is less than values near it, but this could just be a local minimum instead of the actual value that minimizes the function over all possible values.
