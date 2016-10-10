@@ -14,5 +14,6 @@ A program is a set of instructions that people write and give to the computer. E
 
 ## What Threads Are
 Threads are similar to programs in that they also represent a program in execution and allow the computer to give the illusion of multi-tasking. However, threads are smaller than processes. While each process has its own address space, each thread does not have its own address space. This means that if multiple threads are created from a program, and one of the threads changes its address space, this change will be reflected in the other threads.
+
 ### Motivation for Having Threads
 Threads are less independent than processes, since they share an address space. This is an advantage when threads need to work with each other, since they all have access to the same address space. In addition, this means that its easier to switch between threads. When a computer switches processes, it needs to save lots of information (including the address space) of the outgoing process, and load all the information for the incoming process. This takes a lot of time. Since threads share the same address space, when a computer switches threads it does not have to save and load information about the address space, which saves some time.
