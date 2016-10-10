@@ -5,6 +5,7 @@ date: 2016-10-10
 sources: Modern Operation Systems, Tanenbaum & Bos; lecture
 type: summary
 ---
+
 ## Motivation
 When mutiple [threads](https://cchen23.github.io/blog/2016/10/02/os-processes-threads) run at the same time, they take turns executing on the CPU. A pre-emptive scheduler periodically switches the thread that has control of the CPU, interrupting the running thread and running a different thread. 
 
