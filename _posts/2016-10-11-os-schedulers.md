@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OS: Scheduler"
+title: "OS: Schedulers"
 date: 2016-10-11
 sources: Modern Operation Systems, Tanenbaum & Bos; lecture
 type: summary
