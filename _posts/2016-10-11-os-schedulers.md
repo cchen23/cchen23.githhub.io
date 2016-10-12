@@ -1,4 +1,4 @@
----
+s---
 layout: post
 title: "OS: Scheduler"
 date: 2016-10-11
@@ -6,7 +6,7 @@ sources: Modern Operation Systems, Tanenbaum & Bos; lecture
 type: summary
 ---
 
-## Purpose of Scheduler
+## Purpose of Schedulers
 Computers use [processes and threads](https://cchen23.github.io/blog/2016/10/02/os-processes-threads) to use the CPU more efficiently. Sometimes this involves overlapping the execution of these jobs, and a scheduler decides the order and length of time that the jobs get to use the CPU.
 
 ## Pre-emptive vs Non-pre-emptive Schedulers
