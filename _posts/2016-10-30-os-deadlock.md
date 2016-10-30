@@ -11,8 +11,10 @@ type: summary
 
 ##How Do We Know When Deadlock Occurs?
 We can detect deadlock by determining when a set of tasks is unable to progress because they're waiting for other tasks in the set to continue executing. 
-For example, with resource deadlock, we can make a graph to model the situation. In this graph, nodes would represent resources and tasks and edges would represent resource allocations and requests. If we find a cycle in the graph, we know that deadlock has occurred.
-Another way to detect if deadlock will occur involves keeping track of the allocation and requests of resources, as well as information about the total number of available resources. In this method, we repeatedly look for tasks that can run to completion giving the constraints of the current situation. If we ever find that a task will not be able to run to completion, then we know that deadlock will occur.
+
+For example, with resource deadlock involving one instance of each resource, we can make a graph to see if deadlock has occurred. In this graph, nodes would represent resources and tasks and edges would represent resource allocations and requests. If we find a cycle in the graph, we know that deadlock has occurred.
+
+If multiple instances of a resource exist, we can figure out if deadlock has occurred by using information about the allocation and requests of resources, as well as information about the total number of available resources. In this method, we repeatedly look for tasks that can run to completion giving the constraints of the current situation. If we ever find that a task will not be able to run to completion, then we know that deadlock will occur.
 
 ##How Does Deadlock Occur?
 Deadlock occurs only when four conditions hold true:
