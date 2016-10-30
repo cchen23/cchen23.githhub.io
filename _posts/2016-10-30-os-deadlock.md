@@ -14,6 +14,7 @@ We can detect deadlock by determining when a set of tasks is unable to progress 
 
 ##How Does Deadlock Occur?
 Deadlock occurs only when four conditions hold true:
+
 1. Mutual Exclusion: multiple processes cannot share the same resource
 2. Hold & Wait: processes hold their resources when they request another resource
 3. No Preemption: outside forces are not allowed to take resources away from a process
@@ -36,6 +37,7 @@ One way to stop deadlock from occurring involves careful resource allocation. Ta
 
 ####Prevention
 Another way to stop deadlock from occuring involves preventing one of the [four conditions](##How Does Deadlock Occur?) needed for deadlock to occur.
+
 1. Mutual Exclusion: Sometimes, we can deal with this process using a method called spooling. Spooling involves virtualizing a resource so that only one thing can directly deal with the resource. For example, spooling can be used with a printer by having tasks send their output to a buffer (instead of directly to the printer). The buffer would only send full output to the printer, so that the printer would always be able to run to completion. However, sometimes such a method is not possible. Also, this could just push the problem to another level -- instead of deadlock with the printer, deadlock could occur with the buffer if it does not have enough space to hold output from overlapped tasks.
 2. Hold & Wait: If we require tasks to either get all the resources they need or get no resources at all, the Hold & Wait condition will not occur. However, we have the same problem with resource allocation -- tasks generally do not know all the resources they need ahead of time. In addition, this method can be overly cautious in terms of resource acquisition -- when a task cannot get **all** the resources it needs, it does not necessarily imply that deadlock will happen. Therefore requirement that a resource either get all or no resources can make things inefficient.
 3. No Preemption: If we just take away resources that are causing deadlock, this condition will not happen. However, sometimes it's not okay to just take away resources from a process. For example, if we take away a lock that a process holds, we could violate [mutual exclusion](https://cchen23.github.io/blog/2016/10/10/os-mutexes). Or if we take away a printer from a task that's printing something, the output of the printer would become messed up.
