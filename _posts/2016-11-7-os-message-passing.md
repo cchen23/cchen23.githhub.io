@@ -6,6 +6,7 @@ sources: lecture, misc reading
 type: summary
 ---
 
+## Motivation
 Message passing allows different processes to communicate with each other. This communication can happen between processes on the same computer or on different computers in the same network. The consumer process receives a message and the producer process sends a message.
 
 ## Message Passing within a System
