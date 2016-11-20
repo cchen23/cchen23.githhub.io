@@ -1,4 +1,4 @@
-!---
+---
 layout: post
 title: "AI: Metropolis Hastings"
 date: 2016-11-20
@@ -16,7 +16,7 @@ To compute this marginal probability, we could find the probability that the gra
 ## Special Case: Polytrees
 If the Bayesian network is a polytree (meaning that the undirected version of the network graph has no cycles), then we can use dynamic programming to compute the marginal probability more quickly. In the following Bayes net, I depends upon A, B, D, G, and H. But if we wanted to find the marginal probability of I, we would not have to separately compute the probability distribution of I for each of the possible combinations of states of A, B, D, and G.
 
-[Polytree](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Polytree.svg/200px-Polytree.svg.png)
+![Polytree](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Polytree.svg/200px-Polytree.svg.png)
 
 Instead, starting with the probability distributions of A and B, we could then compute the probability distribution of D. Using the probability distribution of D, we can compute the probability distribution of G, and using the probability distribution of G and H, we can compute the probability distribution of I. By computing each intermediate probability distribution, we can avoid computing and summing 2<sup>5<\sup> probabilities to find the marginal distribution of I.
 
