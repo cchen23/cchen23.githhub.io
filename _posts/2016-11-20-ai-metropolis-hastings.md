@@ -18,7 +18,7 @@ If the Bayesian network is a polytree (meaning that the undirected version of th
 
 ![Polytree](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Polytree.svg/200px-Polytree.svg.png)
 
-Instead, starting with the probability distributions of A and B, we could then compute the probability distribution of D. Using the probability distribution of D, we can compute the probability distribution of G, and using the probability distribution of G and H, we can compute the probability distribution of I. By computing each intermediate probability distribution, we can avoid computing and summing 2<sup>5<\sup> probabilities to find the marginal distribution of I.
+Instead, starting with the probability distributions of A and B, we could then compute the probability distribution of D. Using the probability distribution of D, we can compute the probability distribution of G, and using the probability distribution of G and H, we can compute the probability distribution of I. By computing each intermediate probability distribution, we can avoid computing and summing 2<sup>5</sup> probabilities to find the marginal distribution of I.
 
 ## Approximating Marginal Distributions
 However, many Bayesian networks are not polytrees. In that case, using the algorithm we used with polytrees does not work efficiently. However, we can approximate a marginal distribution by using the Metropolis Hastings algorithm.
