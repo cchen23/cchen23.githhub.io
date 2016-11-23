@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Word Embeddings"
+title: "AI/ML: Word Embeddings"
 date: 2016-10-22
 sources: Lecture
 type: summary
