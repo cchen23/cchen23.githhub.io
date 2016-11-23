@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Neural Nets Overview"
+title: "AI/ML: Neural Nets Overview"
 date: 2016-10-21
 sources: lecture; http://neuralnetworksanddeeplearning.com/chap1.html; http://neuralnetworksanddeeplearning.com/chap2.html
 type: summary
