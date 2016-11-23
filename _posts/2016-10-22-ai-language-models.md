@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Language Models"
+title: "AI/ML: Language Models"
 date: 2016-10-22
 sources: lecture; http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lm.pdf
 type: summary
