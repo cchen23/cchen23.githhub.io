@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Metropolis Hastings"
+title: "AI/ML: Metropolis Hastings"
 date: 2016-11-20
 sources: lecture, misc online sources
 type: summary
