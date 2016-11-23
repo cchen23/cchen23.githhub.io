@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Recommender Systems"
+title: "AI/ML: Recommender Systems"
 date: 2016-10-22
 sources: Lecture
 type: summary
