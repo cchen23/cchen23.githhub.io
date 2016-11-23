@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Decision Trees"
+title: "AI/ML: Decision Trees"
 date: 2016-09-21
 sources: lecture, misc online sources
 type: summary
