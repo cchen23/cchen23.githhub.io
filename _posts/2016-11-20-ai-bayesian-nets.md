@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Bayesian Nets"
+title: "AI/ML: Bayesian Nets"
 date: 2016-11-20
 sources: lecture, misc online sources
 type: summary
