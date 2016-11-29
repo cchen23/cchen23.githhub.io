@@ -13,6 +13,7 @@ When a user modifies files, the computer initially stores these modifications in
 
 ### Transactions
 Journaling File Systems group operations into transactions, and ensure that these transactions have the following properties (ACID):
+
 * Atomicity: each transaction either happens fully or not at all
 * Consistency: each transaction brings the system to a valid state
 * Isolation: transactions have the appearance of occuring sequentially (though a certain sequence is not specified)
