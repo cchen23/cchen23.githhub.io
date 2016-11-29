@@ -19,8 +19,8 @@ Journaling File Systems group operations into transactions, and ensure that thes
 * Isolation: transactions have the appearance of occuring sequentially (though a certain sequence is not specified)
 * Durability: transactions remain in place after they have occurred
 
-# Logging
+### Logging
 When carrying out a transaction, the system creates a log and performs the write-ahead process. This process writes operations that carry out the transaction in the log and writes the log to disk. Each of these operations must be idempotent. Then, it writes "commit" at the end of the log and begins the write-behind process. In this process, the system writes the log's updates to disk and then clears the log.
 
-# Dealing with Crashes
+### Dealing with Crashes
 After a system crashes, it looks at the log. If the log has a "commit" statement, then the system re-starts the write-behind process from the beginning of the log. Since each operation in the log is idempotent, it is okay that the system might carry out an operation multiple times.
