@@ -22,5 +22,7 @@ Journaling File Systems group operations into transactions, and ensure that thes
 ### Logging
 When carrying out a transaction, the system creates a log and performs the write-ahead process. This process writes operations that carry out the transaction in the log and writes the log to disk. Each of these operations must be idempotent. Then, it writes "commit" at the end of the log and begins the write-behind process. In this process, the system writes the log's updates to disk and then clears the log.
 
+The computer needs to make sure that logs survive a system crash. To do this, it could write the log to disk, but this adds a large amount of overhead. Instead, the computer can write the log to NVRAM. NVRAM, another form of nonvolatile memory, is smaller than disk but writing to NVRAM takes less time. However, since the log does not include a lot of data, it can be stored on NVRAM.
+
 ### Dealing with Crashes
 After a system crashes, it looks at the log. If the log has a "commit" statement, then the system re-starts the write-behind process from the beginning of the log. Since each operation in the log is idempotent, it is okay that the system might carry out an operation multiple times.
