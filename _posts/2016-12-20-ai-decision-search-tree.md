@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI: Decision Making and Search Trees"
+title: "AI/ML: Decision Making and Search Trees"
 date: 2016-12-20
 sources: lecture, misc reading
 type: summary
