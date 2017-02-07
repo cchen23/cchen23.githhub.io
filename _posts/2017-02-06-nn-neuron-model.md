@@ -8,8 +8,9 @@ type: summary
 
 ## Neuron Structure
 
-In a neural network, each neuron receives inputs from incoming edges. Each neuron has a threshold and an activation function, which determine how its inputs affect its output. To produce its output the neuron takes a weighted sum of its inputs, subtracts its threshold value, and performs the activation function on the difference![y=f((x1w1+...+xNwN)-theta)](http://www.theprojectspot.com/images/post-assets/an.jpg "Perceptron")
-. The neuron's output can serve as an input to another neuron, creating multiple layers of neurons in a neural network.
+In a neural network, each neuron receives inputs from incoming edges. Each neuron has a threshold and an activation function, which determine how its inputs affect its output. To produce its output the neuron takes a weighted sum of its inputs, subtracts its threshold value, and performs the activation function on the difference. ![y=f((x1w1+...+xNwN)-theta)][diagram]
+[diagram]:http://www.theprojectspot.com/images/post-assets/an.jpg "Perceptron"
+ The neuron's output can serve as an input to another neuron, creating multiple layers of neurons in a neural network.
 
 In comparison to standard electrical circuits, neurons in neural networks (in real life and in artificial networks) have much higher fan-in and fan-out. This means that they are more powerful but also more complex.
 
