@@ -12,6 +12,7 @@ Neural networks learn by changing the weights of connections between neurons. Id
 In hebbian learning, connections between neurons that fire in sync strengthen and connections between neurons that fire out of sync weaken. This strengthens connections between concepts that correlate with each other in the world.
 
 This occurs in a competitive environment: not all neurons can be active at the same time, so neurons compete with each other to be active. This means that a set of input neurons fire in sync with the neuron that is mostly strongly activated, so the neurons activated in the input will have stronger connection to the most strongly activated neuron in the next layer (rather than any neuron that is at all activated).
+
 With hebbian learning, neural networks can learn to represent general concepts. However, because learning only depends on whether neurons fire in or out of sync, hebbian learning makes neural networks represent similar concepts with the same neuron. This prevents the neural network from determining more fine-grained distinctions between similar concepts.
 
 ## Error-Driven Learning
