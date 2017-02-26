@@ -33,7 +33,9 @@ Another way to deal with ravines is the re-scale input values to a reasonable ra
 ### Plateaus
 
 Another potential problem with gradient learning is that certain sections of the area function are relatively flat, which means that their gradients are near zero. For example, the logistic function flattens out at large positive or negative input values. This means that if the initial weights of a network cause large inputs to a neuron's logistic activation function, then the neuron will change very little on each iteration of radient descent.
-![logistic function](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/320px-Logistic-curve.svg.png)
+
+![logistic function](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/320px-Logistic-curve.svg.png "Logistic Function")
+
 To avoid this, we can initialize the weights so that the magnitude of inputs to each neuron's activation function is not too large. This involves setting the variance of the random weight initializations based on the fan-in and fan-out to each weight.
 
 ### Decreasing Learning Rate
