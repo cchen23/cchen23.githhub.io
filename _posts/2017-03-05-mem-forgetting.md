@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Memory: Forgetting (Interference)"
-date: 2016-03-05
+date: 2017-03-05
 sources: lecture, textbook
 type: summary
 ---
