@@ -6,8 +6,6 @@ sources: lecture; text
 type: summary
 ---
 
-# Schemas
-
 Schemas are chunks of information about the world in general. They include scripts, which describe events and consequences such as how to act at a restaurant, and frames, which describe things in the world with fixed and variable components (such as the fact that chairs have a place to sit and a back but come in various forms).
 
 ## Benefits
