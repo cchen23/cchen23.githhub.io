@@ -28,6 +28,8 @@ The constraints placed on weights in convolutional neural nets has similarities 
 
 We can add pooling layers into convolutional networks. In these layers, instead of an actual convolution, the outputs of the neurons in the layer are put into a function such as the maximum or average function. For instance, the pooling layer might output the maximum value of each set of four adjacent. This means that small changes in input, which might shift the output of a layer by a little bit, can get smoothed out by the pooling operation.
 
+By alternating layers of convolution and pooling, we can build neurons that detect more and more complex features over larger receptive fields, which allows for more selective and position invariant detectors.
+
 ## How do we learn the weights for these networks?
 
 ### Gradient descent with shared weights
@@ -37,3 +39,9 @@ In a neural network, we find the gradient of the error function with respect to 
 ### Gradient descent with pooling
 
 During backpropagation, we send the gradient of the connections in each layer backwards to the previous layer, and we use each layer's gradients to compute the gradients in the previous layer. In layers that use functions such as max pooling, a neuron in a layer might be connected to multiple neurons in the previous layer but only receive input from one of them (the neuron with the maximum value). In these situations, we only send the receiving neuron's gradient back to the neuron whose input it actually receives.
+
+## Multiscale Architectures
+
+When we identify an image, we use contextual information to make decisions about the image. This requires us to integrate information at multiple scales.
+
+In neural networks, we integrate information at multiple scales by using downsampling methods such as pooling and strided convolution to get information at lower resolution, and we use deconvolution methods to increase resolution.
