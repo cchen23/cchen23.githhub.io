@@ -8,7 +8,7 @@ layout: page
 in neuroscience, statistics & machine learning, and applied math. I'm interested
 in the intersection of computer science and neuroscience, especially in how people
 and machines learn. I'm also interested in learning more about German, teaching,
-and <a href="https://princetonds.github.io/">data science</a>.</p>
+and <a href="http://princetonds.github.io/" target="_blank">data science</a>.</p>
 
 <p>I also like running, chess, violin, tennis, and crossword puzzles.</p>
 
